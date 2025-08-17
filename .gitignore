@@ -1,0 +1,3 @@
+echo "site/" > .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.log" >> .gitignore
