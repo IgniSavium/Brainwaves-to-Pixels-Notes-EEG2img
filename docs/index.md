@@ -1,6 +1,6 @@
 # Brainwaves to Pixels: Notes on EEG-Based Image Reconstruction 
 
-![EEG (Electroencephalogram): What It Is, Procedure & Results](https://my.clevelandclinic.org/-/scassets/images/org/health/articles/9656-electroencephalogram-eeg)
+![9656-electroencephalogram-eeg](./index.assets/9656-electroencephalogram-eeg.jpg)
 
 ## About
 
