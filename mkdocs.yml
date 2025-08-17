@@ -1,0 +1,48 @@
+#mkdocs.yml
+
+site_name: "Brainwaves to Pixels: Notes on EEG-Based Image Reconstruction"
+
+nav:
+- Front page: index.md
+
+- Where Does EEG Come From and What Does It Mean: Where Does EEG Come From and What Does It Mean.md
+- "[Survey]Deep Learning for EEG-Based Visual Classification and Reconstruction[SEU]": "[Survey]Deep Learning for EEG-Based Visual Classification and Reconstruction[SEU].md"
+- 2303.High-resolution image reconstruction with latent diffusion models from human brain activity: High-resolution image reconstruction with latent diffusion models from human brain activity.md
+- 2303.MindDiffuser-Controlled Image Reconstruction from Human Brain Activity with Structural Diffusion: MindDiffuser-Controlled Image Reconstruction from Human Brain Activity with Structural Diffusion.md
+- 2306.DreamDiffusion-Generating High-Quality Images from Brain EEG Signals: DreamDiffusion-Generating High-Quality Images from Brain EEG Signals.md
+- 2308.Seeing through the Brain-Image Reconstruction of Visual Perception from Human Brain Signals: Seeing through the Brain-Image Reconstruction of Visual Perception from Human Brain Signals.md
+- 2308.UniBrain-Unify Image Reconstruction and Captioning in One Diffusion Model from Brain Activity: UniBrain-Unify Image Reconstruction and Captioning in One Diffusion Model from Brain Activity.md
+- 2309.Decoding visual brain representations from EEG through Knowledge Distillation and latent diffusion: Decoding visual brain representations from EEG through Knowledge Distillation and latent diffusion.md
+- 2309.DM-RE2I-A framework based on diffusion model for the reconstruction from EEG to image: DM-RE2I-A framework based on diffusion model for the reconstruction from EEG to image.md
+- 2310.Learning Robust Deep Visual Representations from EEG Brain Recordings: Learning Robust Deep Visual Representations from EEG Brain Recordings.md
+- 2312.BrainVis-Exploring the Bridge between Brain and Visual Signals via Image Reconstruction: BrainVis-Exploring the Bridge between Brain and Visual Signals via Image Reconstruction.md
+- 2403.Reconstructing Visual Stimulus Images from EEG Signals Based on Deep Visual Representation Model: Reconstructing Visual Stimulus Images from EEG Signals Based on Deep Visual Representation Model.md
+- 2403.Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion: Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion.md
+- 2405.A New Framework Combining Diffusion and Convolution Classifier for Generating Images from EEG Signals: A New Framework Combining Diffusion and Convolution Classifier for Generating Images from EEG Signals.md
+- 2406.Mind's Eye:Image Recognition by EEG via Multimodal Similarity-Keeping Contrastive Learning: MIND'S EYE-IMAGE RECOGNITION BY EEG VIA MULTIMODAL SIMILARITY-KEEPING CONTRASTIVE LEARNING.md
+
+theme:
+  name: material
+  favicon: assets/favicon.ico
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true          
+  - pymdownx.highlight     
+  - pymdownx.superfences    
+  - admonition              
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# 添加社交链接
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ignisavium
+      name: GitHub
+
+use_directory_urls: false
